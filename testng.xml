@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Demoblaze Automation Suite">
+    <test name="Regression Test">
+        <classes>
+            <class name="com.praktikum.testing.otomation.tests.HomeTest"/>
+            <class name="com.praktikum.testing.otomation.tests.SignupTest"/>
+            <class name="com.praktikum.testing.otomation.tests.LoginTest"/>
+            <class name="com.praktikum.testing.otomation.tests.AddToCartTest"/>
+            <class name="com.praktikum.testing.otomation.tests.CartTest"/>
+            <class name="com.praktikum.testing.otomation.tests.CheckoutTest"/>
+            <class name="com.praktikum.testing.otomation.utils.ExtentReportManager"></class>
+            <class name="com.praktikum.testing.otomation.utils.TestDataGenerator"></class>
+        </classes>
+    </test>
+</suite>
